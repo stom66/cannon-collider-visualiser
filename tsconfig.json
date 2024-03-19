@@ -1,0 +1,16 @@
+{
+	"include": [
+		"src/**/*.ts", 
+		"src/**/*.json"
+	],
+	"compilerOptions": {
+		"composite": true,
+		"baseUrl": ".",
+        "esModuleInterop"  : true,
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	}
+}
