@@ -1,18 +1,18 @@
 # Cannon Collider Visualiser
 
-This repo uses ThreeJS to visualise the colliders in a JSON file exported by the Blender plugin: Decentraland Toolkit: Cannon Colliders.
+This repo uses ThreeJS to visualise the colliders in a JSON file exported by the Blender plugin: [Decentraland Toolkit: Cannon Colliders](https://github.com/stom66/blender-dcltk-cannon-colliders/).
+
+![Preview of the visualiser](./preview.png)
 
 ## Getting Started
-
-To run this demo locally in a WSL environment using VS Code, follow these steps:
 
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/stom66/cannon-collider-example.git
+    git clone https://github.com/stom66/cannon-collider-visualiser.git
     ```
 
-2. Navigate to the project directory and run the following:
+2. Navigate to the project directory and run:
 
     ```bash
     npm install
@@ -24,13 +24,18 @@ To run this demo locally in a WSL environment using VS Code, follow these steps:
     npx vite
     ```
 
-    This will start a development server using Vite, and you should see the demo running in your browser at `http://localhost:8101`.
+This will start a development server using Vite, and you should see the demo running in your browser at `http://localhost:8101`.
+
+Use your mouse to navigate the viewport:
+	
+* Left-click to **rotate**
+* Right-click to **move**
+* Scroll to **zoom**
 
 ## Switching colliders
 
-At current, the JSON file is hardcoded to `src/colliders.json`. To use your own colliders either overwrite this file with your own.
+by default the file `src/colliders.json` is loaded. To use your own colliders either overwrite this file with your own or update the import statement in `_main.ts` at line #69.
 
-ToDo: add drop-in file support?
 
 ### Sources
 
