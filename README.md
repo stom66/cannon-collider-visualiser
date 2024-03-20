@@ -41,6 +41,6 @@ By default the file `src/colliders.json` is loaded. To use your own colliders ei
 
 ### ToDo:
 
-[ ] Show scene stats: number of collider types, tri-counts
-[ ] Support drag-drop JSON file import
-[ ] Allow toggling individual meshes
+* [ ] Show scene stats: number of collider types, tri-counts  
+* [ ] Support drag-drop JSON file import  
+* [ ] Allow toggling individual meshes  
