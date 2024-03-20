@@ -2,7 +2,7 @@
 
 This repo uses ThreeJS to visualise colliders in a JSON file exported by the Blender plugin [Decentraland Toolkit: Cannon Colliders](https://github.com/stom66/blender-dcltk-cannon-colliders/)
 
-
+It is a small aid for debugging and ensuring that the meshes being exported by the plugin are correct. 
 
 ![Preview of the visualiser](./preview.png)
 
@@ -39,6 +39,8 @@ Use your mouse to navigate the viewport:
 By default the file `src/colliders.json` is loaded. To use your own colliders either overwrite this file with your own or update the import statement in `_main.ts` at line #69.
 
 
-### Sources
+### ToDo:
 
-Some code in this repository comes from: https://sbcode.net/threejs/physics-cannonDebugrenderer/
+[ ] Show scene stats: number of collider types, tri-counts
+[ ] Support drag-drop JSON file import
+[ ] Allow toggling individual meshes
