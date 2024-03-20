@@ -1,6 +1,8 @@
 # Cannon Collider Visualiser
 
-This repo uses ThreeJS to visualise the colliders in a JSON file exported by the Blender plugin: [Decentraland Toolkit: Cannon Colliders](https://github.com/stom66/blender-dcltk-cannon-colliders/).
+This repo uses ThreeJS to visualise colliders in a JSON file exported by the Blender plugin [Decentraland Toolkit: Cannon Colliders](https://github.com/stom66/blender-dcltk-cannon-colliders/)
+
+
 
 ![Preview of the visualiser](./preview.png)
 
@@ -24,7 +26,7 @@ This repo uses ThreeJS to visualise the colliders in a JSON file exported by the
     npx vite
     ```
 
-This will start a development server using Vite, and you should see the demo running in your browser at `http://localhost:8101`.
+This will start a development server using Vite, and you should see the demo running in your browser at [http://localhost:8101](http://localhost:8101)
 
 Use your mouse to navigate the viewport:
 	
@@ -34,7 +36,7 @@ Use your mouse to navigate the viewport:
 
 ## Switching colliders
 
-by default the file `src/colliders.json` is loaded. To use your own colliders either overwrite this file with your own or update the import statement in `_main.ts` at line #69.
+By default the file `src/colliders.json` is loaded. To use your own colliders either overwrite this file with your own or update the import statement in `_main.ts` at line #69.
 
 
 ### Sources
